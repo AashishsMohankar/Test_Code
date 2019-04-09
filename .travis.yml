@@ -1,2 +1,9 @@
 language: java
-script: mvn test
+
+dist: trusty
+
+jdk:
+    - openjdk7
+    - oraclejdk7
+    - oraclejdk8
+
